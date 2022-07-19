@@ -31,3 +31,35 @@ getUserChoice(‘scissors’);
 or
 getUserChoice(‘knife’);
 
+/* 5) Now we need to have the computer make a choice.
+Create a new function named getComputerChoice with no parameters. Inside its block, utilize Math.random() and Math.floor() to get a whole number between 0 and 2. 
+Then depending on the number, return either ‘rock’, ‘paper’ or ‘scissors’.
+ */
+
+Const getComputerChoice = () => {
+  Const randomNumber = Math.floor(Math.random() *3);
+ 
+  Switch (randomNumber) {
+Case 0:
+   Return ‘rock’;
+Case 1:
+   Return ‘paper’;
+Case 2:
+   Return ‘scissors’;
+ }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
