@@ -14,7 +14,7 @@ If it does, then return the userInput. If not, use console.log to print an error
  If(userInput === ‘rock’ ||  userInput === ‘paper’ || userInput === ‘scissors’) {
    return userInput;
 } else {
-   Console.log(‘You should pick between the rock, paper or scissors’);
+   return ‘You should pick between the rock, paper or scissors’;
 }
 };
 
@@ -51,7 +51,7 @@ Case 2:
 
 /*6) Test the function by calling it multiple times and printing the results to the console. You can delete this when you know your function works.*/
 
-Console.log(getComputerChoice()); 
+return getComputerChoice(); 
 
 /* 7) Now it’s ime to determine a winner. Create a function named determineWinner that takes two parameters named userChoice and computerChoice. 
 This function will compare the two choices played and then return if the human player won, lost, or tied. Let’s deal with the tie condition first. 
@@ -60,7 +60,7 @@ If so, return a string that the game was a tie. */
 
 const  determineWinner = (userChoice , computerChoice) => {
     if(userChoice === computerChoice) {
-        console.log(‘The game is tie!’);
+        return ‘The game is tie!’;
      }
  
  /*8) If the game is not a tie, you’ll need to determine a winner. Begin by writing an if statement that checks if the userChoice is ‘rock’. 
@@ -69,9 +69,9 @@ const  determineWinner = (userChoice , computerChoice) => {
  
  If(userChoice === ‘rock’) {
    If(computerChoice === ‘paper’) {
-      console.log(‘Computer won!’);
+      return ‘Computer won!’;
       } else {
-       console.log(‘User won!’);
+       return ‘User won!’;
       }
      }
  
@@ -80,28 +80,30 @@ const  determineWinner = (userChoice , computerChoice) => {
  
  If(userChoice === ‘paper’) {
    If(computerChoice === ‘scissors) {
-      console.log(‘Computer won!’);
+      return ‘Computer won!’;
        } else {
-       console.log(‘User won!’);
+       return ‘User won!’;
        }
       }
  
- /* 10) 10) Next, write yet another if statement for if the userChoice is ‘scissors’. Inside of this if statement, the computerChoice must either be ‘rock’ 
+ /* 10) Next, write yet another if statement for if the userChoice is ‘scissors’. Inside of this if statement, the computerChoice must either be ‘rock’ 
  or ‘paper’. Write logic that will return a winner.*/
  
  If(userChoice === ‘scissors’) {
    If(computerChoice === ‘rock’) {
-      console.log(‘Computer won!’);
+     return ‘Computer won!’;
        } else {
-       console.log(‘User won!’);
+      return ‘User won!’;
        }
       }
-
 };
 
+/* 11)  Don’t forget to test your function! Check off this task when you’re finished testing.*/
 
-
-
+Console.log(determineWinner(‘paper’, ‘rock’);
+Console.log(determineWinner(‘paper’, ‘scissors’);
+Console.log(determineWinner(‘rock’, ‘scissors’);
+            
 
 
 
