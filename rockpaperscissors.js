@@ -53,6 +53,18 @@ Case 2:
 
 Console.log(getComputerChoice()); 
 
+/* 7) Now it’s ime to determine a winner. Create a function named determineWinner that takes two parameters named userChoice and computerChoice. 
+This function will compare the two choices played and then return if the human player won, lost, or tied. Let’s deal with the tie condition first. 
+Within the determineWinner() function, write an if statement that checks if the userChoice parameter equals the computerChoice parameter. 
+If so, return a string that the game was a tie. */
+
+const  determineWinner = (userChoice , computerChoice) => {
+    if(userChoice === computerChoice) {
+         return console.log(‘The game is tie!’);
+     }
+};
+
+
 
 
 
