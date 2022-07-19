@@ -17,3 +17,15 @@ If it does, then return the userInput. If not, use console.log to print an error
    Console.log(‘You should pick between the rock, paper or scissors’);
 }
 };
+
+/* 4) Test the function by calling it with valid and invalid input, and printing the results to the console.
+You can delete this when you know your functions works.
+*/
+Console.log(toUserChoice(‘rock’);
+Or
+Console.log(toUserChoice(‘paper’);
+or
+Console.log(toUserChoice(‘scissors’);
+or
+console.log(‘knife’) // 
+
