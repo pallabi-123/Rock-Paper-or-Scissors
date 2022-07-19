@@ -60,7 +60,19 @@ If so, return a string that the game was a tie. */
 
 const  determineWinner = (userChoice , computerChoice) => {
     if(userChoice === computerChoice) {
-         return console.log(‘The game is tie!’);
+        console.log(‘The game is tie!’);
+     }
+ 
+ /*8) If the game is not a tie, you’ll need to determine a winner. Begin by writing an if statement that checks if the userChoice is ‘rock’. 
+ Inside the if statement’s block, write another if/else statement. The inner if/else whould check if the computerChoice is ‘paper’. 
+ If so return a message that the computer won. If not, return a message that the user won.*/
+ 
+ If(userChoice === ‘rock’) {
+   If(computerChoice === ‘paper’) {
+      console.log(‘Computer won!’);
+      } else {
+       console.log(‘User won!’);
+      }
      }
 };
 
