@@ -104,6 +104,19 @@ Console.log(determineWinner(‘paper’, ‘rock’);
 Console.log(determineWinner(‘paper’, ‘scissors’);
 Console.log(determineWinner(‘rock’, ‘scissors’);
             
+/* 12) Everything is set up. Now you need to start the game and log the results. Create a function named playGame. Inside the playGame() function, create a variable
+named userChoice set equal to the result of calling getUserChoice(). Passing in either ‘rock’ , ‘paper’, or ‘scissors’ as an argument.Create another variable named
+computerChoice, and set it equal to the result of    calling getComputerChoice().
+Under both of these variables, use console.log to print them to the console. */
+            Const playGame = ()=> {
+Const userChoice = getUserChoice(‘paper’);
+Const computerChoice = getComputerChoice();
+
+Console.log(userChoice);
+Console.log(computerChoice)
+}
+
+playGame()
 
 
 
