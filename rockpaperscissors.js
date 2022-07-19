@@ -21,11 +21,13 @@ If it does, then return the userInput. If not, use console.log to print an error
 /* 4) Test the function by calling it with valid and invalid input, and printing the results to the console.
 You can delete this when you know your functions works.
 */
-Console.log(toUserChoice(‘rock’);
+Console.log(getUserChoice(‘rock’);
 Or
-Console.log(toUserChoice(‘paper’);
+Console.log(getUserChoice(‘paper’);
 or
-Console.log(toUserChoice(‘scissors’);
+Console.log(getUserChoice(‘scissors’);
 or
-console.log(‘knife’) // 
+getUserChoice(‘scissors’);
+or
+getUserChoice(‘knife’);
 
