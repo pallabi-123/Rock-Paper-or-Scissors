@@ -49,10 +49,9 @@ Case 2:
  }
 }
 
+/*6) Test the function by calling it multiple times and printing the results to the console. You can delete this when you know your function works.*/
 
-
-
-
+Console.log(getComputerChoice()); 
 
 
 
