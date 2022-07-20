@@ -126,10 +126,3 @@ function call inside of a console.log() statement so you can see the result.Then
 }
 
 playGame()
-
-
-
-
-
-
-
