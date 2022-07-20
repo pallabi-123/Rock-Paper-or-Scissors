@@ -112,8 +112,13 @@ Under both of these variables, use console.log to print them to the console. */
 Const userChoice = getUserChoice(‘paper’);
 Const computerChoice = getComputerChoice();
 
-Console.log(userChoice);
-Console.log(computerChoice)
+// Console.log(userChoice);
+// Console.log(computerChoice)
+ 
+ /*13) Finally, let’s determine who won.
+Inside the playGame() function, call the determineWinner() function. Pass in the userChoice and computerChoice variables as its parameters. Make sure to put the 
+function call inside of a console.log() statement so you can see the result.Then, to start the game, call the playGame() function on the last line of your program.*/
+ Console.log(determineWinner(userChoice, computerChoice));
 }
 
 playGame()
