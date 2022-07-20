@@ -11,7 +11,7 @@ userInput = userInput. tolowerCase();*/
 Inside getUserChoice(), write an if/else statement that makes sure the userInput is either ‘rock’, ‘paper’, or ‘scissors’. 
 If it does, then return the userInput. If not, use console.log to print an error message to the console.
 */
- If(userInput === ‘rock’ ||  userInput === ‘paper’ || userInput === ‘scissors’) {
+ If(userInput === ‘rock’ ||  userInput === ‘paper’ || userInput === ‘scissors’ || userInput === ‘bomb’) {
    return userInput;
 } else {
    return ‘You should pick between the rock, paper or scissors’;
@@ -59,7 +59,11 @@ Within the determineWinner() function, write an if statement that checks if the 
 If so, return a string that the game was a tie. */
 
 const  determineWinner = (userChoice , computerChoice) => {
-    if(userChoice === computerChoice) {
+ /*14) Make this game better by adding a secret cheat code. If a user types ‘bomb’ as their choice, then make sure they win, no matter what.*/
+    If(userChoice === ‘bomb’) {
+  Return ‘User won’;
+}
+   if(userChoice === computerChoice) {
         return ‘The game is tie!’;
      }
  
@@ -109,7 +113,7 @@ named userChoice set equal to the result of calling getUserChoice(). Passing in 
 computerChoice, and set it equal to the result of    calling getComputerChoice().
 Under both of these variables, use console.log to print them to the console. */
             Const playGame = ()=> {
-Const userChoice = getUserChoice(‘paper’);
+Const userChoice = getUserChoice(‘bomb’);
 Const computerChoice = getComputerChoice();
 
 // Console.log(userChoice);
